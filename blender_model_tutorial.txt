@@ -1,0 +1,21 @@
+Blender Model Rigging Walkthrough
+===================================
+https://www.youtube.com/watch?v=3Hmhtwq8Fpc&t=1s
+
+1. Import model from MagicaVoxel
+2. Center the model origin to geometry and grid 
+	(Shift-S for cursor then snap origin to cursor)
+3. Place in the center of the screen
+4. Set object shading to smooth (Object Mode)
+5. Set object UV Mapping to Clear Seam (Edit Mode --> Shading/UVs)
+6. Remove doubles **make sure in face mode**
+7. Set faces to flat (Shading / UV Mapping)
+8. Add armature at model center
+	To alternate between ends, right click on the point
+	To change grid size (N->Display->Grid Floor->Scale)
+	To extrude a bone --> E
+9. Center the armature to the model and apply the location (Ctrl-A)
+10. Parent the mesh to the armature (P) with automated weights
+11. Separate the head from the body by selecting the faces in Edit Mode and separating with P
+12. Adjust weights as necessary
+13. Set the shading to smooth and add an edge split modifier to the model
